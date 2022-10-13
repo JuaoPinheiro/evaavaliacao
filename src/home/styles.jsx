@@ -392,6 +392,10 @@ export const Footer = styled.footer`
         padding-right: 99px;
         padding-top: 60px;
 
+        @media (max-width: 410px){
+            padding-right: 10px;
+            }
+
 
         p{
             font-weight: 300;

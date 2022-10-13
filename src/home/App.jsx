@@ -58,8 +58,8 @@ function App() {
         </C.DivCarousel>
         <C.DivCarousel>
           <img src={Carousel3} />
-          <C.H1Carousel>Os melhores acessórios</C.H1Carousel>
-          <C.ParagraphCarousel>para o seu setup!</C.ParagraphCarousel>
+          <C.H1Carousel>Os melhores</C.H1Carousel>
+          <C.ParagraphCarousel>acessórios para o seu setup!</C.ParagraphCarousel>
         </C.DivCarousel>
       </Carousel>
 
