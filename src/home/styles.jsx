@@ -133,6 +133,11 @@ export const Header = styled.header`
         background-color: #0C0D0D;
         border: none;
         color: #fff;
+
+        @media (max-width: 450px){
+                display: none;
+            }
+
     }
 `
 
@@ -156,6 +161,16 @@ export const ImageCarousel1 = styled.img`
     width: 100%;
     min-width: 1366px;
     margin-top: -2.4%;
+
+    @media (max-width: 850px){
+        transform: matrix(1, -0.03, 0.02, 1, -4, -5);
+            }
+
+            @media (max-width: 600px){
+        transform: matrix(1, -0.02, 0.02, 1, -4, -5);
+            }
+
+    
  `
 
 export const DivCarousel = styled.div`
@@ -179,7 +194,8 @@ export const H1Carousel = styled.h1`
     margin-left: 200px;
 
     @media (max-width: 680px){
-        margin-left: 100px
+        margin-left: 100px;
+        font-size: 30px;
             }
 
             @media (max-width: 500px){
@@ -199,7 +215,8 @@ export const ParagraphCarousel = styled.p`
     margin-left: 200px;
 
     @media (max-width: 680px){
-        margin-left: 100px
+        margin-left: 100px;
+        font-size: 15px;
             }
 
             @media (max-width: 500px){
@@ -330,6 +347,10 @@ export const Footer = styled.footer`
         @media (max-width: 1000px){
             margin-left: 40px;
     }
+
+    @media (max-width: 610px){
+            margin-left: 5px;
+    }
     }
 
 
@@ -384,6 +405,10 @@ export const Footer = styled.footer`
 
     .about3{
         padding-top: 60px;
+
+        @media (max-width: 570px){
+            padding-right: -150px;
+    }
 
         p{
             font-weight: 300;
