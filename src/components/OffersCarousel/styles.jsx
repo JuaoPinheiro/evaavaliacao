@@ -26,12 +26,11 @@ export const H2Highlights = styled.h2`
 `
 
 export const Container = styled.div`
-    .gdGCKZ,
-    .gdeZJy
+    .sc-lllmON, 
+    .fzMgzg 
     {
             display: none;
         }
-
     .fFzJe{
         display: none;
     }

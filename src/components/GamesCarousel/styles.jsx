@@ -20,6 +20,7 @@ export const Image = styled.img``
 
 export const Container = styled.div`
     margin-top: 80px;
+    margin-bottom: 100px;
 
     .h2-highlights{
         font-style: normal;
@@ -29,8 +30,8 @@ export const Container = styled.div`
         border-top-right-radius: 1px solid #E11383;
     }
 
-    .gdGCKZ,
-    .gdeZJy
+    .sc-lllmON, 
+    .fzMgzg 
     {
             display: none;
         }

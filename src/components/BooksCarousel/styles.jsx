@@ -29,8 +29,7 @@ export const H2Highlights = styled.h2`
 export const Container = styled.div`
     margin-top: 80px;
 
-    .gdGCKZ,
-    .gdeZJy
+    .sc-lllmON
     {
             display: none;
         }

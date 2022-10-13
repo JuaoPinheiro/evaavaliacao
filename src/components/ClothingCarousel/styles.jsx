@@ -29,8 +29,8 @@ export const Container = styled.div`
         border-top-right-radius: 1px solid #E11383;
     }
 
-    .gdGCKZ,
-    .gdeZJy
+    .sc-lllmON, 
+    .fzMgzg 
     {
             display: none;
         }
