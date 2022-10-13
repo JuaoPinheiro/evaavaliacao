@@ -236,6 +236,7 @@ export const Section = styled.section`
         flex-direction: column;
         border-radius: 5px;
         align-items: center;
+        gap: 80px;
             }
 
 
@@ -244,8 +245,6 @@ export const Section = styled.section`
     }
 
     .div-service{
-        border-right: 1px solid #DADFEB;
-        width: 200px;
 
         @media (max-width: 780px){
             width: 80px;
@@ -383,6 +382,10 @@ export const Footer = styled.footer`
             line-height: 19px;
             color: #FDFDFD;            
             text-decoration: none;
+
+            @media (max-width: 550px){
+                font-size: 10px;
+            }
         }
     }
 
@@ -404,6 +407,10 @@ export const Footer = styled.footer`
             line-height: 19px;
             color: #FDFDFD;
             text-decoration: none;
+
+            @media (max-width: 550px){
+                font-size: 10px;
+            }
         }
     }
 
