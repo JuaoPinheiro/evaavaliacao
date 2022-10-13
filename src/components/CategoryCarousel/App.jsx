@@ -32,7 +32,7 @@ export default function CategoryCarousel() {
                 breakPoints={breakPoints}
             >
 
-                {categories?.map((category) => (
+                { categories && categories?.map((category) => (
                     <C.AllProductsCarousel>
                         <div className='sizeDiv'>
                             <div key={category.id}>

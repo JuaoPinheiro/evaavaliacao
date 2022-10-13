@@ -10,8 +10,8 @@ export default function ClothingCarousel() {
     const [clothing, setClothing] = useState([])
 
     useEffect(() => {
-        api.get('/category/3').then(({ products }) => {
-          setClothing(products)        
+        api.get('/category/3').then(({ response }) => {
+          setClothing(response)        
         })
     }, [])
 
@@ -30,7 +30,7 @@ export default function ClothingCarousel() {
         <C.Container>
             <C.TextHighlights>
                 <div className='line'></div>
-                <C.H2Highlights>Destaques em vertuário</C.H2Highlights>
+                <C.H2Highlights>Destaques em vestuário</C.H2Highlights>
             </C.TextHighlights>
             <Carousel
                 itemsToShow={4}
@@ -38,15 +38,14 @@ export default function ClothingCarousel() {
                 breakPoints={breakPoints}
             >
 
-                {clothing?.map((products) => (
+                {clothing && clothing?.map((category) => (
                     <C.AllProductsCarousel>
                         <div className='sizeDiv'>
-                            <div key={products.id}>
-                                <img src={products.image} alt="" />
-                                <p className='paragraph-principal'>{products.name}</p>
-                                <p>{products.star}*<C.Star/></p>
-                                <p className='price-old'> R$ {products.price}</p>
-                                <C.H1Price>R$ {products.promotional_price}</C.H1Price>
+                            <div key={category.id}>
+                                <p className='paragraph-principal'>{category.name}</p>
+                                <p>{category.star}*<C.Star/></p>
+                                <p className='price-old'> R$ {category.price}</p>
+                                <C.H1Price>R$ {category.promotional_price}</C.H1Price>
                                 <button>Comprar</button>
                             </div>
                         </div>

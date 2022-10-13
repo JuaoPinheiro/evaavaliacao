@@ -10,8 +10,8 @@ export default function OfficeCarousel() {
   const [office, setOffice] = useState([])
 
   useEffect(() => {
-    api.get('/category/2').then(({ products }) => {
-      setOffice(products)
+    api.get('/category/2').then(({ response }) => {
+      setOffice(response)
     })
   }, [])
 

@@ -38,15 +38,15 @@ export default function OffersCarousel() {
                 breakPoints={breakPoints}
             >
 
-                {products?.map((products) => (
+                {products?.map((product) => (
                     <C.AllProductsCarousel>
                         <div className='sizeDiv'>
-                            <div key={products.id}>
-                                <img src={products} alt="" />
-                                <p className='paragraph-principal'>{products.name}</p>
-                                <p>{products.star}*<C.Star/></p>
-                                <p className='price-old'> R$ {products.price}</p>
-                                <C.H1Price>R$ {products.promotional_price}</C.H1Price>
+                            <div key={product.id}>
+                                <img src={product} alt="" />
+                                <p className='paragraph-principal'>{product.name}</p>
+                                <p>{product.star}*<C.Star/></p>
+                                <p className='price-old'> R$ {product.price}</p>
+                                <C.H1Price>R$ {product.promotional_price}</C.H1Price>
                                 <button>Comprar</button>
                             </div>
                         </div>

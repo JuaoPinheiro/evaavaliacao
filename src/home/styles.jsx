@@ -93,6 +93,18 @@ export const InputHeader = styled.input`
     height: 32px;
     border-radius: 4px;
 
+    @media (max-width: 810px){
+        max-width: 230px;
+            }
+
+            @media (max-width: 810px){
+        max-width: 100px;
+            }
+
+            @media (max-width: 500px){
+                display: none;
+            }
+
 `
 
 export const Container = styled.div`
@@ -166,6 +178,14 @@ export const H1Carousel = styled.h1`
     margin-top: 110px;
     margin-left: 200px;
 
+    @media (max-width: 680px){
+        margin-left: 100px
+            }
+
+            @media (max-width: 500px){
+        margin-left: 50px
+            }
+
 `
 
 export const ParagraphCarousel = styled.p`
@@ -178,6 +198,14 @@ export const ParagraphCarousel = styled.p`
     margin-top: 170px;
     margin-left: 200px;
 
+    @media (max-width: 680px){
+        margin-left: 100px
+            }
+
+            @media (max-width: 500px){
+        margin-left: 50px
+            }
+
 `
 
 export const Section = styled.section`
@@ -187,6 +215,12 @@ export const Section = styled.section`
     justify-content: center;
     text-align: center;
 
+    @media (max-width: 650px){
+        flex-direction: column;
+        border-radius: 5px;
+        align-items: center;
+            }
+
 
      p{ 
         color: #FF3BA5;
@@ -195,6 +229,11 @@ export const Section = styled.section`
     .div-service{
         border-right: 1px solid #DADFEB;
         width: 200px;
+
+        @media (max-width: 780px){
+            width: 80px;
+    }
+
     }
 `
 
@@ -240,6 +279,10 @@ export const NewsLetter = styled.div`
         display: flex;
         gap: 18px;
         margin-top: 48px;
+
+        @media (max-width: 610px){
+            flex-direction: column;
+            }
     }
 
     input{
@@ -283,6 +326,10 @@ export const Footer = styled.footer`
         display: flex;
         flex-direction: column;
         margin-left: 164px;
+
+        @media (max-width: 1000px){
+            margin-left: 40px;
+    }
     }
 
 
@@ -352,6 +399,16 @@ export const Footer = styled.footer`
             flex-direction: row;
             gap: 10px;
             margin-top: 10px;
+
+           p{
+            @media (max-width: 830px){
+                font-size: 13px;
+            }
+
+            @media (max-width: 775px){
+                display: none;
+            }
+           }
         }
     }
 

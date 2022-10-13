@@ -9,8 +9,11 @@ export default function BooksCarousel() {
     const [books, setBooks] = useState([])
 
     useEffect(() => {
-        api.get('/category/1').then(({ data }) => {
-          setBooks(data)        
+        api.get('/category/1').then(({ response }) => {
+          setBooks(response) 
+          return{
+            ...books
+          }       
         })
         // console.log(books[3])
     }, [])
@@ -33,7 +36,7 @@ export default function BooksCarousel() {
                 breakPoints={breakPoints}
             >
 
-                {books?.map((products) => (
+                {books && books.map((products) => (
                     <C.AllProductsCarousel>
                         <div className='sizeDiv'>
                             <div key={products.id}>

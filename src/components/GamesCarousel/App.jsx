@@ -8,8 +8,8 @@ export default function GamesCarousel() {
     const [games, setGames] = useState([])
 
     useEffect(() => {
-        api.get('/category/4').then(({ products }) => {
-            setGames(products)        
+        api.get('/category/4').then(({ response }) => {
+            setGames(response)        
         })
     }, [])
 
@@ -28,7 +28,7 @@ export default function GamesCarousel() {
         <C.Container>
             <C.TextHighlights>
                 <div className='line'></div>
-                <C.H2Highlights>Destaques em vertuário</C.H2Highlights>
+                <C.H2Highlights>Destaques em games</C.H2Highlights>
             </C.TextHighlights>
             <Carousel
                 itemsToShow={4}
