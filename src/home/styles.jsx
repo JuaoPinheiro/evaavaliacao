@@ -326,6 +326,15 @@ export const NewsLetter = styled.div`
         border: none;
         color: #fff;
         margin-bottom: 48px;
+        cursor: pointer;
+
+        &:hover{
+            opacity: .7;
+        }
+
+        &:active{
+            opacity: .9;
+        }
     }
 ;
 `

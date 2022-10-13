@@ -9,6 +9,7 @@ import Select from 'react-select'
 import Carousel1 from '../assets/carousel1.png'
 import Carousel2 from '../assets/carousel2.png'
 import Carousel3 from '../assets/carousel3.png'
+
 import Book from '../assets/books.png'
 // import Office from '../assets/office.png'
 // import Clothing from '../assets/clothing.png'
@@ -31,6 +32,8 @@ const options = [
   { value: 'vanilla', label: 'Vestuário' },
   { value: 'vanilla', label: 'Informática' }
 ]
+
+
 
 function App() {
   return (
@@ -83,15 +86,17 @@ function App() {
       <BooksCarousel />
       <OfficeCarousel />
       <ClothingCarousel />
-      <GamesCarousel/>
+      <GamesCarousel />
 
 
       <C.NewsLetter>
         <C.ChartEmail />
         <h2>Receba nossas novidades, descontos e muito mais</h2>
         <div className="div-input">
-          <input type="text" name="name" placeholder="Digite seu nome" required />
-          <input name="email" type="text"  placeholder="Digite seu email" />
+          <form>
+            <input type='name' placeholder="Digite seu nome" required />
+            <input name="email" type="text" placeholder="Digite seu email" />
+          </form>
         </div>
         <button type="submit">Eu quero receber novidades!</button>
       </C.NewsLetter>
