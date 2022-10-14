@@ -1,7 +1,7 @@
 # <img src="./src/assets/logoeva.png" height="27" width="60"/> Eva Shop
 
 
-<img src="./src/assets/mock1.png" />
+<img src="./src/assets/mock1.png"   width="600"/>
 
 # 📄 O que é a Eva Shop?
 
