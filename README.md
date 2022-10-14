@@ -1,4 +1,4 @@
-# <img src="./src/assets/logoeva.png" height="20" width="40"/> Eva Shop
+# <img src="./src/assets/logoeva.png" height="27" width="60"/> Eva Shop
 
 
 <img src="./src/assets/mock1.png" />
