@@ -193,7 +193,8 @@ export const H1Carousel = styled.h1`
             }
 
             @media (max-width: 500px){
-        margin-left: 50px
+                margin-left: 50px;
+                font-size: 20px;
             }
 
 `

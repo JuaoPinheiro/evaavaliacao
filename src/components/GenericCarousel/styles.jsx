@@ -93,6 +93,9 @@ export const AllProductsCarousel = styled.div`
         text-align: center;
         display: inline-block;
 
+        @media (max-width: 440px){
+            }
+
         &:hover {
             border: 1px solid #BA0668;
             border-radius: 4px;
@@ -114,7 +117,7 @@ export const AllProductsCarousel = styled.div`
             text-align: center;
 
             @media (max-width: 440px){
-                font-size: 7px;
+                font-size: 8px;
             }
         }
 
@@ -134,17 +137,10 @@ export const AllProductsCarousel = styled.div`
 
         }
 
-        .paragraph-small{
-            font-weight: 400;
-            font-size: 10px;
-            line-height: 12px;
-            text-align: center;
-        }
-
         .image-product{
             height: 200px;
             @media (max-width: 440px){
-                height: 70px;
+                height: 100px;
             }
         }
 
@@ -172,7 +168,8 @@ export const H1Price = styled.h1`
     text-align: center;
 
     @media (max-width: 440px){
-        font-size: 10px;
+        font-size: 14px;
+        padding-top: 0;
             }
 
 `
