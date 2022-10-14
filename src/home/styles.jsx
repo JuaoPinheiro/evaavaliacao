@@ -5,7 +5,6 @@ import { FaShoppingCart } from "react-icons/fa";
 import { FaLock } from "react-icons/fa";
 import { FaCreditCard } from "react-icons/fa";
 import { FaTruckMoving } from "react-icons/fa";
-import { MdOutlineMarkEmailRead } from "react-icons/md";
 import { FaStore } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
@@ -52,12 +51,7 @@ export const Truck = styled(FaTruckMoving)`
     height: 50px;
 `
 
-export const ChartEmail = styled(MdOutlineMarkEmailRead)`
-    color: #fff;
-    width: 50px;
-    height: 50px;
-    margin-top: 48px;
-`
+
 
 export const Store = styled(FaStore)`
     color: #FF3BA5;
@@ -135,9 +129,9 @@ export const Header = styled.header`
         color: #fff;
 
         @media (max-width: 450px){
-                display: none;
-            }
-
+        display: none;
+    }
+        
     }
 `
 
@@ -282,62 +276,7 @@ export const TextServices = styled.h3`
         cursor: pointer;
 `
 
-export const NewsLetter = styled.div`
-    background: #3C3E40;
-    width: 100%;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 
-    .div-input{
-        display: flex;
-        gap: 18px;
-        margin-top: 48px;
-
-        @media (max-width: 610px){
-            flex-direction: column;
-            }
-    }
-
-    input{
-        background: #FDFDFD;
-        border-radius: 4px;
-        width: 278px;
-        height: 32px;
-        padding-left: 5px;
-        margin-bottom: 48px;
-    }
-
-    h2{
-        color: #fff;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 28px;
-        text-align: center;
-    }
-
-    button{
-        width: 266px;
-        height: 42px;
-        background: #E11383;
-        border-radius: 8px;
-        border: none;
-        color: #fff;
-        margin-bottom: 48px;
-        cursor: pointer;
-
-        &:hover{
-            opacity: .7;
-        }
-
-        &:active{
-            opacity: .9;
-        }
-    }
-;
-`
 
 export const Footer = styled.footer`
     background: #0C0D0D;

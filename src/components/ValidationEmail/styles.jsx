@@ -21,6 +21,23 @@ export const NewsLetter = styled.div`
             }
     }
 
+    .div-message{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .message{
+        position: absolute;
+        color: white;
+        margin-left: 9%;
+        padding-top: 50px;
+        font-size: 13px;
+        color: #DADFEB;
+    }
+
+  
+
     input{
         background: #FDFDFD;
         border-radius: 4px;

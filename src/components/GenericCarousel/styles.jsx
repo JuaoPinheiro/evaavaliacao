@@ -20,7 +20,7 @@ export const Image = styled.img``
 
 export const Container = styled.div`
     margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 
 
     .h2-highlights{
@@ -31,9 +31,9 @@ export const Container = styled.div`
         border-top-right-radius: 1px solid #E11383;
     }
 
-    .sc-lllmON{
-            display: none;
-        }
+    .sc-iveFHk{
+        display: none;
+    }
 
     .rec-arrow-right{
         margin-right: 70px;
@@ -96,6 +96,8 @@ export const AllProductsCarousel = styled.div`
         &:hover {
             border: 1px solid #BA0668;
             border-radius: 4px;
+            transform: scale(0.9);
+            transition: 0.7s ease all;
 
         }
 
@@ -110,6 +112,10 @@ export const AllProductsCarousel = styled.div`
             padding-bottom: 8px;
             padding-top: 8px;
             text-align: center;
+
+            @media (max-width: 440px){
+                font-size: 7px;
+            }
         }
 
         .price-old{
@@ -123,7 +129,7 @@ export const AllProductsCarousel = styled.div`
 
             @media (max-width: 440px){
                 padding-left: 30px;
-                font-size: 8px;
+                font-size: 6px;
             }
 
         }
@@ -138,7 +144,7 @@ export const AllProductsCarousel = styled.div`
         .image-product{
             height: 200px;
             @media (max-width: 440px){
-                height: 120px;
+                height: 70px;
             }
         }
 
@@ -166,7 +172,7 @@ export const H1Price = styled.h1`
     text-align: center;
 
     @media (max-width: 440px){
-        font-size: 18px;
+        font-size: 10px;
             }
 
 `

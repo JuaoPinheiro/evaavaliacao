@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Carousel from "react-elastic-carousel";
 import * as C from "./styles";
 import api from "../../services/api";
-import formatedCurrency from '../../services/formatCurrency'
+import formatCurrency from '../../services/formatCurrency'
 
 export default function GenericCarousel({ title, categoryId }) {
   const [products, setProducts] = useState([]);
@@ -53,8 +53,8 @@ export default function GenericCarousel({ title, categoryId }) {
                   />
                   <p className="paragraph-principal">{product.name}</p>
                   {starts(product?.stars)}
-                  <p className="price-old">R$ {product.price}</p>
-                  <C.H1Price>R$ {product.promotional_price}</C.H1Price>
+                  <p className="price-old">{formatCurrency(product.price)}</p>
+                  <C.H1Price>{formatCurrency(product.promotional_price)}</C.H1Price>
                   <button>Comprar</button>
                 </div>
               </div>

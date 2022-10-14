@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from "react";
 import * as C from './styles'
 
+
 function App() {
     const [email, setEmail] = useState('')
     const [message, setMessage] = useState('')
@@ -10,7 +11,7 @@ function App() {
         const regEx = /[a-zA-Z0-9._%+-]+@[a-z0-9-]+\.[a-z]{2,8}(.[a-z]{2,8}])?/g
 
         if (regEx.test(email)) {
-            setMessage('Email válido!')
+            setMessage('Cadastrado!')
         } else if (!regEx.test(email) && email != "") {
             setMessage('Email Inválido')
         } else {
@@ -28,7 +29,9 @@ function App() {
                 <C.ChartEmail />
                 <h2>Receba nossas novidades, descontos e muito mais</h2>
 
-                <p className='message'>{message}</p>
+                <div className='div-message'>
+                    <p className='message'>{message}</p>
+                </div>
                 <div className="div-input">
                     <input type='text' placeholder="Digite seu nome" />
                     <input
