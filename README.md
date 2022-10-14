@@ -37,3 +37,6 @@ $ yarn dev or npm start
 * [React Icon](https://react-icons.github.io/react-icons/)
 * [Styled-Components](https://styled-components.com)
 
+  
+  ---
+  Made with ❤️ por Juão Pinheiro 😊
