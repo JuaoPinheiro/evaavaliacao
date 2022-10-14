@@ -7,6 +7,8 @@
 
 Eva Shop é o front end responsivo de um e-commerce, dentro da Eva Shop temos diversos produtos como acessórios para escritório, livros, jogos, roupas entre outros produtos.
 
+### Link do projeto: <a href='https://evaavaliacao.vercel.app'> Aqui!</a>
+
 # 🚩Para começar o projeto 
 Precisa instalar o <a href='https://nodejs.org/en/'>Node<a/> e algum gerenciador de pacotes Node recomendado o <a href="https://www.npmjs.com">npm<a/>
 
