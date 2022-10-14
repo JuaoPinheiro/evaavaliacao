@@ -13,15 +13,9 @@ export const StarWhite = styled(FaRegStar)`
 
 
 `
-
-
-
-export const Image = styled.img``
-
 export const Container = styled.div`
     margin-top: 80px;
     margin-bottom: 100px;
-
 
     .h2-highlights{
         font-style: normal;
@@ -36,7 +30,6 @@ export const Container = styled.div`
     }
 
     .rec-arrow-right{
-        margin-right: 70px;
         background: transparent;
         color: #E11383;
         box-shadow: none;
@@ -56,7 +49,6 @@ export const Container = styled.div`
         background: transparent;
         color: #E11383;
         box-shadow: none;
-        margin-left: 70px;
 
         &:hover{
             background: #E11383;
@@ -77,11 +69,13 @@ export const TextHighlights = styled.div`
     margin-top: 64px;
 `
 
-
-//CAROUSEL'S
-
-export const H2Highlights = styled.h2``
-
+export const H2Highlights = styled.h2`
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0C0D0D;
+`
 
 export const AllProductsCarousel = styled.div`
     display: flex;
@@ -92,9 +86,6 @@ export const AllProductsCarousel = styled.div`
         width: 100%;
         text-align: center;
         display: inline-block;
-
-        @media (max-width: 440px){
-            }
 
         &:hover {
             border: 1px solid #BA0668;
@@ -117,7 +108,7 @@ export const AllProductsCarousel = styled.div`
             text-align: center;
 
             @media (max-width: 440px){
-                font-size: 8px;
+                font-size: 10px;
             }
         }
 
@@ -138,9 +129,10 @@ export const AllProductsCarousel = styled.div`
         }
 
         .image-product{
-            height: 200px;
+            height: 250px;
+
             @media (max-width: 440px){
-                height: 100px;
+                height: 200px;
             }
         }
 
@@ -168,9 +160,9 @@ export const H1Price = styled.h1`
     text-align: center;
 
     @media (max-width: 440px){
-        font-size: 14px;
+        font-size: 20px;
         padding-top: 0;
-            }
+}
 
 `
 

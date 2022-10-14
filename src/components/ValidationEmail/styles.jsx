@@ -16,9 +16,9 @@ export const NewsLetter = styled.div`
         gap: 18px;
         margin-top: 48px;
 
-        @media (max-width: 610px){
+        @media (max-width: 650px){
             flex-direction: column;
-            }
+ }
     }
 
     .div-message{

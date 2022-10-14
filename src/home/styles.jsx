@@ -192,10 +192,10 @@ export const H1Carousel = styled.h1`
         font-size: 30px;
             }
 
-            @media (max-width: 500px){
-                margin-left: 50px;
-                font-size: 20px;
-            }
+     @media (max-width: 500px){
+         margin-left: 50px;
+         font-size: 20px;
+}
 
 `
 
@@ -214,9 +214,9 @@ export const ParagraphCarousel = styled.p`
         font-size: 15px;
             }
 
-            @media (max-width: 500px){
+     @media (max-width: 500px){
         margin-left: 50px
-            }
+     }
 
 `
 
@@ -232,19 +232,14 @@ export const Section = styled.section`
         border-radius: 5px;
         align-items: center;
         gap: 80px;
-            }
-
+}
 
      p{ 
         color: #FF3BA5;
-    }
-
-    .div-service{
-
-        @media (max-width: 780px){
-            width: 80px;
-    }
-
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
     }
 `
 
@@ -261,9 +256,6 @@ export const Services = styled.div`
     
        
 `
-
-//TEXT Services
-
 export const TextServices = styled.h3`
         color: #ffffff;
         font-style: normal;
@@ -293,9 +285,9 @@ export const Footer = styled.footer`
         flex-direction: column;
         margin-left: 164px;
 
-        @media (max-width: 1000px){
-            margin-left: 40px;
-    }
+        @media (max-width: 700px){
+            margin-left: 40px
+            }
 
     @media (max-width: 610px){
             margin-left: 5px;
@@ -325,6 +317,10 @@ export const Footer = styled.footer`
         gap: 10px;
         padding-right: 99px;
 
+        @media (max-width: 720px){
+            padding-right: 50px
+            }
+
         a{
             font-weight: 400;
             font-size: 16px;
@@ -342,7 +338,7 @@ export const Footer = styled.footer`
         display: flex;
         flex-direction: column;
         gap: 10px;
-        padding-right: 99px;
+        padding-right: 50px;
         padding-top: 60px;
 
         @media (max-width: 410px){
@@ -387,11 +383,10 @@ export const Footer = styled.footer`
             margin-top: 10px;
 
            p{
-            @media (max-width: 830px){
-                font-size: 13px;
-            }
-
-            @media (max-width: 775px){
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 19px;
+            @media (max-width: 930px){
                 display: none;
             }
            }
