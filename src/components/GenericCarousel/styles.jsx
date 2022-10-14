@@ -20,6 +20,8 @@ export const Image = styled.img``
 
 export const Container = styled.div`
     margin-top: 80px;
+    margin-bottom: 80px;
+
 
     .h2-highlights{
         font-style: normal;
@@ -94,11 +96,11 @@ export const AllProductsCarousel = styled.div`
         &:hover {
             border: 1px solid #BA0668;
             border-radius: 4px;
+
         }
 
         &:hover button{
             display: block;
-            margin-left: 6px;
         }
 
         .paragraph-principal{
@@ -107,7 +109,7 @@ export const AllProductsCarousel = styled.div`
             line-height: 16px;
             padding-bottom: 8px;
             padding-top: 8px;
-            text-align: start;
+            text-align: center;
         }
 
         .price-old{
@@ -116,8 +118,13 @@ export const AllProductsCarousel = styled.div`
             line-height: 14px;
             color: #3C3E40;
             text-decoration: line-through;
-            padding-left: 65px;
             padding-top: 8px;
+            padding-left: 70px;
+
+            @media (max-width: 440px){
+                padding-left: 30px;
+                font-size: 8px;
+            }
 
         }
 
@@ -128,13 +135,11 @@ export const AllProductsCarousel = styled.div`
             text-align: center;
         }
 
-        .noOldPrice{
-            margin-top: 26px;
-            font-weight: 700;
-            font-size: 32px;
-            line-height: 38px;
-            color: #E11383;
-            padding-bottom: 4px;
+        .image-product{
+            height: 200px;
+            @media (max-width: 440px){
+                height: 120px;
+            }
         }
 
         button{
@@ -144,8 +149,7 @@ export const AllProductsCarousel = styled.div`
             height: 42px;
             border: none;
             color: #fff;
-            margin-top: 16px;
-            margin-bottom: 16px;
+            margin: 16px 8px;
             display: none;
             cursor: pointer;
         }
@@ -159,6 +163,11 @@ export const H1Price = styled.h1`
     color: #E11383;
     padding-top: 8px;
     padding-bottom: 4px;
+    text-align: center;
+
+    @media (max-width: 440px){
+        font-size: 18px;
+            }
 
 `
 

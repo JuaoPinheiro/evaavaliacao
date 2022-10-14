@@ -28,10 +28,9 @@ function App() {
                 <C.ChartEmail />
                 <h2>Receba nossas novidades, descontos e muito mais</h2>
 
+                <p className='message'>{message}</p>
                 <div className="div-input">
-
                     <input type='text' placeholder="Digite seu nome" />
-
                     <input
                         type="email"
                         placeholder="Digite seu email"
@@ -39,7 +38,6 @@ function App() {
                         onChange={handleOnChange} />
                 </div>
                 <button onClick={emailValidation}>Eu quero receber novidades!</button>
-                {message}
             </C.NewsLetter>
         </div>
     )

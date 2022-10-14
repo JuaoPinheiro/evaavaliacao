@@ -30,6 +30,7 @@ export const NewsLetter = styled.div`
         margin-bottom: 48px;
     }
 
+
     h2{
         color: #fff;
         font-weight: 400;

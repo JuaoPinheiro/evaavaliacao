@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Carousel from "react-elastic-carousel";
 import * as C from "./styles";
 import api from "../../services/api";
+import formatedCurrency from '../../services/formatCurrency'
 
 export default function GenericCarousel({ title, categoryId }) {
   const [products, setProducts] = useState([]);
@@ -25,6 +26,8 @@ export default function GenericCarousel({ title, categoryId }) {
     { width: 1300, itemsToShow: 4 },
   ];
 
+
+
   const starts = (length) => Array.from({ length }).map(() => <C.Star />);
 
   return (
@@ -44,13 +47,13 @@ export default function GenericCarousel({ title, categoryId }) {
               <div className="sizeDiv">
                 <div key={product.id}>
                   <img
-                    style={{ height: "200px" }}
+                  className="image-product"
                     src={product?.["images_product"][0]?.path}
                     alt=""
                   />
                   <p className="paragraph-principal">{product.name}</p>
                   {starts(product?.stars)}
-                  <p className="price-old">{product.price}</p>
+                  <p className="price-old">R$ {product.price}</p>
                   <C.H1Price>R$ {product.promotional_price}</C.H1Price>
                   <button>Comprar</button>
                 </div>
