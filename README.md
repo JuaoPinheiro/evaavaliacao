@@ -1,5 +1,8 @@
 # <img src="./src/assets/logoeva.png" height="20" width="40"/> Eva Shop
 
+
+<img src="./src/assets/mock1.png" />
+
 # 📄 O que é a Eva Shop?
 
 Eva Shop é o front end responsivo de um e-commerce, dentro da Eva Shop temos diversos produtos como acessórios para escritório, livros, jogos, roupas entre outros produtos.
