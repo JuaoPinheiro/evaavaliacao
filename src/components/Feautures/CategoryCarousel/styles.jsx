@@ -52,6 +52,10 @@ export const AllProductsCarousel = styled.div`
         left: 54px;
         bottom: 30px;
         color: #FDFDFD;
+
+        @media (max-width: 340px){
+            left: 34px;
+        }
     }
 
     .image-product{
