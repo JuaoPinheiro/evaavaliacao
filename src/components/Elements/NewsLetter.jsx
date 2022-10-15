@@ -1,9 +1,8 @@
-import React from 'react'
 import { useState } from "react";
-import * as C from './styles'
+import * as C from '../../home/styles'
 
 
-function App() {
+function NewsLetter() {
     const [email, setEmail] = useState('')
     const [message, setMessage] = useState('')
 
@@ -46,4 +45,4 @@ function App() {
     )
 }
 
-export default App
+export default NewsLetter

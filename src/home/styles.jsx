@@ -9,20 +9,11 @@ import { FaStore } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaMap } from "react-icons/fa";
-
-
-
-
+import { MdOutlineMarkEmailRead } from "react-icons/md";
 
 
 import Lupa from '../assets/lupa.png'
 
-
-
-
-
-
-// ICONS
 export const FaaUser = styled(FaUser)`
     color: #fff;
     margin-left: -2%;
@@ -148,7 +139,6 @@ export const AHeader = styled.a`
     }
 `
 
-//IMAGES
 
 export const ImageCarousel1 = styled.img`
     transform: matrix(1, -0.04, 0.02, 1, -4, -5);
@@ -161,7 +151,7 @@ export const ImageCarousel1 = styled.img`
             }
 
             @media (max-width: 600px){
-        transform: matrix(1, -0.02, 0.02, 1, -4, -5);
+        transform: matrix(1, -0.01, 0.02, 1, -4, -5);
             }
 
     
@@ -175,6 +165,8 @@ export const DivCarousel = styled.div`
         width: 100%;
         min-width: 1366px;
     }
+
+
 `
 
 export const H1Carousel = styled.h1`
@@ -270,6 +262,89 @@ export const TextServices = styled.h3`
 `
 
 
+export const NewsLetter = styled.div`
+    background: #3C3E40;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .div-input{
+        display: flex;
+        gap: 18px;
+        margin-top: 48px;
+
+        @media (max-width: 650px){
+            flex-direction: column;
+ }
+    }
+
+    .div-message{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .message{
+        position: absolute;
+        color: white;
+        margin-left: 9%;
+        padding-top: 50px;
+        font-size: 13px;
+        color: #DADFEB;
+    }
+
+  
+
+    input{
+        background: #FDFDFD;
+        border-radius: 4px;
+        width: 278px;
+        height: 32px;
+        padding-left: 5px;
+        margin-bottom: 48px;
+    }
+
+
+    h2{
+        color: #fff;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    button{
+        width: 266px;
+        height: 42px;
+        background: #E11383;
+        border-radius: 8px;
+        border: none;
+        color: #fff;
+        margin-bottom: 48px;
+        cursor: pointer;
+
+        &:hover{
+            opacity: .7;
+        }
+
+        &:active{
+            opacity: .9;
+        }
+    }
+;
+`
+
+export const ChartEmail = styled(MdOutlineMarkEmailRead)`
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    margin-top: 48px;
+`
+
+
 
 export const Footer = styled.footer`
     background: #0C0D0D;
@@ -306,6 +381,7 @@ export const Footer = styled.footer`
 
     .lineFooter{
         border: 2px solid #FDFDFD;
+        background-color: #FDFDFD;
         width: 100px;
         height: 0;
         margin-bottom: 18px;

@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { FaStar, FaRegStar } from "react-icons/fa";
+import { FaStar } from "react-icons/fa";
 
 
 
@@ -8,24 +8,9 @@ export const Star = styled(FaStar)`
     color: #EFD444;
 `
 
-export const StarWhite = styled(FaRegStar)`
-    color: #EFD444;
-
-
-`
-export const Container = styled.div`
-    margin-top: 80px;
+export const Div = styled.div`
     margin-bottom: 100px;
-
-    .h2-highlights{
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 28px;
-        border-top-right-radius: 1px solid #E11383;
-    }
-
-    .sc-iveFHk{
+    .sc-lllmON{
         display: none;
     }
 
@@ -57,16 +42,17 @@ export const Container = styled.div`
 
     }
 
-    .line{
-        border-bottom: 4px solid #E11383;
-        width: 64px;
-    }
 `
 
 export const TextHighlights = styled.div`
     margin-left: 10%;
     margin-bottom: 4%;
     margin-top: 64px;
+
+    .line{
+        border-bottom: 4px solid #E11383;
+        width: 64px;
+    }
 `
 
 export const H2Highlights = styled.h2`
@@ -163,15 +149,6 @@ export const H1Price = styled.h1`
         font-size: 20px;
         padding-top: 0;
 }
-
-`
-
-export const Products = styled.div`
-    display: flex;
-    width: 236px;
-    height: 452px;
-    flex-direction: column;
-    cursor: pointer;
 
 `
 
