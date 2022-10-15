@@ -1,7 +1,7 @@
-# <img src="./src/assets/logoeva.png" height="27" width="60"/> Eva Shop
+# <img src="./src/assets/logoeva.png" height="27" width="60"/> Eva Shop 
 
 
-<img src="./src/assets/mock1.png"   width="600"/>
+<img src="./src/assets/mock1.png"   width="500"/>
 
 # 📄 O que é a Eva Shop?
 
@@ -9,8 +9,8 @@ Eva Shop é o front end responsivo de um e-commerce, dentro da Eva Shop temos di
 
 ### Link do projeto: <a href='https://evaavaliacao.vercel.app'> Aqui!</a>
 
-# 🚩Para começar o projeto 
-Precisa instalar o <a href='https://nodejs.org/en/'>Node<a/> e algum gerenciador de pacotes Node recomendado o <a href="https://www.npmjs.com">npm<a/>
+# 🚩Para começar o projeto precisa:
+Ter instalado o <a href='https://nodejs.org/en/'>Node<a/> e algum gerenciador de pacotes node recomendado o <a href="https://www.npmjs.com">npm<a/>
 
 # 👨‍💻 Instalação
 
