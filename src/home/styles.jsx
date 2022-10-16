@@ -290,10 +290,14 @@ export const NewsLetter = styled.div`
     .message{
         position: absolute;
         color: white;
-        margin-left: 9%;
+        margin-left: 110px;
         padding-top: 50px;
         font-size: 13px;
         color: #DADFEB;
+
+        @media (max-width: 650px){
+        margin-left: 0;
+ }
     }
 
   
