@@ -297,6 +297,7 @@ export const NewsLetter = styled.div`
 
         @media (max-width: 650px){
         margin-left: 0;
+        margin-top: 95px;
  }
     }
 
