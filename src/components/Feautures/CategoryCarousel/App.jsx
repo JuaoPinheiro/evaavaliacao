@@ -59,7 +59,7 @@ export default function CategoryCarousel() {
                     categories?.map((category) => (
                         <C.AllProductsCarousel>
                             <div className="sizeDiv">
-                                <div key={category?.id}>
+                                <div className="div-category" key={category?.id}>
                                     <img
                                         className="image-product"
                                         src={category?.image}

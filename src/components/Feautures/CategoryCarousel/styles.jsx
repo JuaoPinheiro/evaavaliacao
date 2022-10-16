@@ -30,13 +30,14 @@ export const Div = styled.div`
 
 export const AllProductsCarousel = styled.div`
     gap: 40px;
-    position: relative;
 
 .sizeDiv{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    .div-category{
+        position: relative;
+        align-items: end;
+        display: flex;
+        justify-content: center;
+    }
 
     &:hover {
         transform: scale(0.9);
@@ -49,13 +50,8 @@ export const AllProductsCarousel = styled.div`
         font-size: 32px;
         line-height: 38px;
         position: absolute;
-        left: 54px;
         bottom: 30px;
         color: #FDFDFD;
-
-        @media (max-width: 450px){
-            left: 34px;
-        }
     }
 
     .image-product{
