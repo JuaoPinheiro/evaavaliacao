@@ -16,13 +16,10 @@ import Lupa from '../assets/lupa.png'
 
 export const FaaUser = styled(FaUser)`
     color: #fff;
-    margin-left: -2%;
 `
 
 export const Cart = styled(FaShoppingCart)`
-    color: #fff;
-    margin-left: -2%;
-    
+    color: #fff;    
     `
 
 export const Lock = styled(FaLock)`
@@ -113,6 +110,11 @@ export const Header = styled.header`
     width: 100%;
     height: 60px;
 
+    .divHeaderCart{
+        display: flex;
+        gap: 30px;
+    }
+
     .css-1s2u09g-control, 
     Select{
         background-color: #0C0D0D;
@@ -134,7 +136,7 @@ export const AHeader = styled.a`
     line-height: 19px;
     color: #FDFDFD;
     text-decoration: none;
-    @media (max-width: 950px){
+    @media (max-width: 1070px){
         display: none;
     }
 `

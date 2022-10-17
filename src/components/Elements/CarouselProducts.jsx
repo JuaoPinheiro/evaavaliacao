@@ -1,5 +1,5 @@
-import CategoryCarousel from "../Feautures/CategoryCarousel/App";
-import GenericCarousel from "../Feautures/GenericCarousel/App";
+import CategoryCarousel from "../Features/CategoryCarousel/App";
+import GenericCarousel from "../Features/GenericCarousel/App";
 
 export default function CarouselProducts({ data }){
     return(

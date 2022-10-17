@@ -12,14 +12,17 @@ const options = [
 
 
 export default function Header() {
-    return (
-        <C.Header>
-          <img src={Logo} alt="" />
-          <Select options={options} />
-          <C.InputHeader type="text" />
-          <C.AHeader href="">Minha conta</C.AHeader>
-          <C.FaaUser />
-          <C.AHeader href="">Carrinho</C.AHeader>
-          <C.Cart />
-        </C.Header>
-    )}
+  return (
+    <C.Header>
+      <img src={Logo} alt="" />
+      <Select options={options} />
+      <C.InputHeader type="text" />
+      <div className="divHeaderCart">
+        <C.AHeader href="">Minha conta</C.AHeader>
+        <C.FaaUser />
+        <C.AHeader href="">Carrinho</C.AHeader>
+        <C.Cart />
+      </div>
+    </C.Header>
+  )
+}
